@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Guru</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        color: white;
+        padding: 0px;
+        margin: 0px;
+        background: url('bgi.jpg');
+    }
+    
+    header div.header{
+    color: #092763;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.left {
+    /* border: 2px solid black; */
+    border-radius: 2px;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+}
+
+.left img {
+    width: 109px;
+    height: 55px;
+}
+.left img:hover{
+    opacity: 0.7;
+    height: 65px;
+    width: 170px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.navbar {
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    margin: 83px;
+    border-radius: 20px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.2em 1em;
+    font-size: 16px;
+}
+
+.navbar li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.btn {
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: red;
+    background-color: rgb(245, 213, 155);
+}
+
+.container {
+    /* border: 2px solid red; */
+    margin: 60px 280px;
+    padding: 27px 21px;
+    border-radius: 21px;
+    width: 59%;
+}
+
+.h1 {
+    text-align: center;
+    color: black;
+}
+
+.form-group input {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    display: block;
+    width: 280px;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+#btn1{
+    display: block;
+    width: 14%;
+    margin: auto;
+}
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div class="header">@fitnessGuru</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1 class="h1">Join the Best Gym in Kanpur Now</h1>
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" id="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" id="" placeholder="Enter your Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" id="" placeholder="Enter your Email">
+            </div>
+            <button class="btn" id="btn1">Submit Now</button>
+        </form>
+    </div>
+</body>
+
+</html>
